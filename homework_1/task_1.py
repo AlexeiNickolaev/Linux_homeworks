@@ -11,6 +11,6 @@ def text_in_command_output(command, text_to_find):
 
 
 command_to_execute = "ls"
-text_to_search = "nginx.list"
+text_to_search = "example.txt"
 result = text_in_command_output(command_to_execute, text_to_search)
 print(result)
