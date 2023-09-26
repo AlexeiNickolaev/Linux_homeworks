@@ -2,9 +2,9 @@ from checks import checkout_negative
 import pytest
 
 
-folderin = '../test/'
-folderout = '../out/'
-folderext = '../folder1/'
+folderin = '.../test/'
+folderout = '.../out/'
+folderext = '.../folder1/'
 
 
 def test_step1():
