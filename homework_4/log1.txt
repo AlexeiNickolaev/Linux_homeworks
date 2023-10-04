@@ -1,0 +1,129 @@
+окт 04 21:07:15 ly-Linux sshd[10275]: Accepted password for user2 from 127.0.0.1 port 41444 ssh2
+окт 04 21:07:15 ly-Linux sshd[10275]: pam_unix(sshd:session): session opened for user user2(uid=1002) by (uid=0)
+окт 04 21:07:15 ly-Linux systemd[1]: Created slice User Slice of UID 1002.
+окт 04 21:07:15 ly-Linux systemd[1]: Starting User Runtime Directory /run/user/1002...
+окт 04 21:07:15 ly-Linux systemd-logind[654]: New session 14 of user user2.
+окт 04 21:07:15 ly-Linux systemd[1]: Finished User Runtime Directory /run/user/1002.
+окт 04 21:07:15 ly-Linux systemd[1]: Starting User Manager for UID 1002...
+окт 04 21:07:15 ly-Linux systemd[10279]: pam_unix(systemd-user:session): session opened for user user2(uid=1002) by (uid=0)
+окт 04 21:07:18 ly-Linux systemd[10279]: Queued start job for default target Main User Target.
+окт 04 21:07:18 ly-Linux systemd[10279]: Created slice User Application Slice.
+окт 04 21:07:18 ly-Linux systemd[10279]: Created slice User Background Tasks Slice.
+окт 04 21:07:18 ly-Linux systemd[10279]: Created slice User Core Session Slice.
+окт 04 21:07:18 ly-Linux systemd[10279]: Started Pending report trigger for Ubuntu Report.
+окт 04 21:07:18 ly-Linux systemd[10279]: Reached target Paths.
+окт 04 21:07:18 ly-Linux systemd[10279]: Reached target Timers.
+окт 04 21:07:18 ly-Linux systemd[10279]: Starting D-Bus User Message Bus Socket...
+окт 04 21:07:18 ly-Linux systemd[10279]: Listening on GnuPG network certificate management daemon.
+окт 04 21:07:18 ly-Linux systemd[10279]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+окт 04 21:07:18 ly-Linux systemd[10279]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+окт 04 21:07:18 ly-Linux systemd[10279]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+окт 04 21:07:18 ly-Linux systemd[10279]: Listening on GnuPG cryptographic agent and passphrase cache.
+окт 04 21:07:18 ly-Linux systemd[10279]: Listening on PipeWire Multimedia System Socket.
+окт 04 21:07:18 ly-Linux systemd[10279]: Listening on debconf communication socket.
+окт 04 21:07:18 ly-Linux systemd[10279]: Listening on Sound System.
+окт 04 21:07:18 ly-Linux systemd[10279]: Listening on REST API socket for snapd user session agent.
+окт 04 21:07:18 ly-Linux systemd[10279]: Listening on D-Bus User Message Bus Socket.
+окт 04 21:07:18 ly-Linux systemd[10279]: Reached target Sockets.
+окт 04 21:07:18 ly-Linux systemd[10279]: Reached target Basic System.
+окт 04 21:07:18 ly-Linux systemd[1]: Started User Manager for UID 1002.
+окт 04 21:07:18 ly-Linux systemd[1]: Started Session 14 of User user2.
+окт 04 21:07:18 ly-Linux systemd[10279]: Started PipeWire Multimedia Service.
+окт 04 21:07:18 ly-Linux systemd[10279]: Started PipeWire Media Session Manager.
+окт 04 21:07:18 ly-Linux systemd[10279]: Starting Sound Service...
+окт 04 21:07:18 ly-Linux systemd[10279]: Started Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+окт 04 21:07:18 ly-Linux systemd[10279]: Starting Tracker metadata extractor...
+окт 04 21:07:19 ly-Linux rtkit-daemon[1799]: Supervising 5 threads of 3 processes of 2 users.
+окт 04 21:07:19 ly-Linux rtkit-daemon[1799]: Supervising 5 threads of 3 processes of 2 users.
+окт 04 21:07:19 ly-Linux pipewire[10296]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+окт 04 21:07:19 ly-Linux pipewire[10296]: mod.rt: could not set nice-level to -11: Отказано в доступе
+окт 04 21:07:19 ly-Linux systemd[10279]: Started D-Bus User Message Bus.
+окт 04 21:07:19 ly-Linux rtkit-daemon[1799]: Supervising 5 threads of 3 processes of 2 users.
+окт 04 21:07:19 ly-Linux pipewire-media-session[10297]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+окт 04 21:07:19 ly-Linux pipewire-media-session[10297]: mod.rt: could not make thread 10341 realtime using RTKit: Отказано в доступе
+окт 04 21:07:20 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] AppArmor D-Bus mediation is enabled
+окт 04 21:07:20 ly-Linux rtkit-daemon[1799]: Supervising 5 threads of 3 processes of 2 users.
+окт 04 21:07:20 ly-Linux pipewire[10296]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+окт 04 21:07:20 ly-Linux pipewire[10296]: mod.rt: could not make thread 10393 realtime using RTKit: Отказано в доступе
+окт 04 21:07:20 ly-Linux sshd[10275]: pam_unix(sshd:session): session closed for user user2
+окт 04 21:07:20 ly-Linux systemd[1]: session-14.scope: Deactivated successfully.
+окт 04 21:07:20 ly-Linux systemd-logind[654]: Session 14 logged out. Waiting for processes to exit.
+окт 04 21:07:20 ly-Linux systemd-logind[654]: Removed session 14.
+окт 04 21:07:20 ly-Linux dbus-daemon[637]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.232' (uid=1002 pid=10298 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+окт 04 21:07:20 ly-Linux systemd[1]: Condition check resulted in Bluetooth service being skipped.
+окт 04 21:07:20 ly-Linux rtkit-daemon[1799]: Supervising 5 threads of 3 processes of 2 users.
+окт 04 21:07:20 ly-Linux rtkit-daemon[1799]: Supervising 5 threads of 3 processes of 2 users.
+окт 04 21:07:20 ly-Linux rtkit-daemon[1799]: Supervising 5 threads of 3 processes of 2 users.
+окт 04 21:07:20 ly-Linux rtkit-daemon[1799]: Supervising 5 threads of 3 processes of 2 users.
+окт 04 21:07:20 ly-Linux rtkit-daemon[1799]: Supervising 5 threads of 3 processes of 2 users.
+окт 04 21:07:20 ly-Linux sshd[10390]: Accepted password for user2 from 127.0.0.1 port 40226 ssh2
+окт 04 21:07:20 ly-Linux sshd[10390]: pam_unix(sshd:session): session opened for user user2(uid=1002) by (uid=0)
+окт 04 21:07:20 ly-Linux systemd-logind[654]: New session 16 of user user2.
+окт 04 21:07:20 ly-Linux systemd[1]: Started Session 16 of User user2.
+окт 04 21:07:20 ly-Linux systemd[10279]: Started Sound Service.
+окт 04 21:07:20 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.3' (uid=1002 pid=10300 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+окт 04 21:07:20 ly-Linux systemd[10279]: Starting Virtual filesystem service...
+окт 04 21:07:21 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Successfully activated service 'org.gtk.vfs.Daemon'
+окт 04 21:07:21 ly-Linux systemd[10279]: Started Virtual filesystem service.
+окт 04 21:07:21 ly-Linux sudo[10439]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -i /home/user2/p7zip-full.deb
+окт 04 21:07:21 ly-Linux sudo[10439]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1002)
+окт 04 21:07:21 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.7' (uid=1002 pid=10299 comm="/usr/bin/snap run snapd-desktop-integration " label="unconfined")
+окт 04 21:07:22 ly-Linux systemd[10279]: Starting flatpak document portal service...
+окт 04 21:07:22 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.8' (uid=1002 pid=10472 comm="/usr/libexec/xdg-document-portal " label="unconfined")
+окт 04 21:07:22 ly-Linux systemd[10279]: Starting sandboxed app permission store...
+окт 04 21:07:22 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+окт 04 21:07:22 ly-Linux systemd[10279]: Started sandboxed app permission store.
+окт 04 21:07:22 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Successfully activated service 'org.freedesktop.portal.Documents'
+окт 04 21:07:22 ly-Linux systemd[10279]: Started flatpak document portal service.
+окт 04 21:07:22 ly-Linux audit[10299]: AVC apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/20092/usr/lib/snapd/snap-confine" pid=10299 comm="snap-confine" capability=12  capname="net_admin"
+окт 04 21:07:22 ly-Linux kernel: audit: type=1400 audit(1695845464.193:69): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/20092/usr/lib/snapd/snap-confine" pid=10299 comm="snap-confine" capability=12  capname="net_admin"
+окт 04 21:07:22 ly-Linux kernel: audit: type=1400 audit(1695845464.193:70): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/20092/usr/lib/snapd/snap-confine" pid=10299 comm="snap-confine" capability=38  capname="perfmon"
+окт 04 21:07:22 ly-Linux audit[10299]: AVC apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/20092/usr/lib/snapd/snap-confine" pid=10299 comm="snap-confine" capability=38  capname="perfmon"
+окт 04 21:07:24 ly-Linux snapd-desktop-i[10540]: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+окт 04 21:07:24 ly-Linux snapd-desktop-i[10540]: Failed to do gtk init. Waiting for a new session with desktop capabilities.
+окт 04 21:07:25 ly-Linux snapd-desktop-i[10540]: Checking session /org/freedesktop/login1/session/_32...
+окт 04 21:07:25 ly-Linux snapd-desktop-i[10540]: Checking session /org/freedesktop/login1/session/_316...
+окт 04 21:07:27 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Files' unit='tracker-miner-fs-3.service' requested by ':1.3' (uid=1002 pid=10300 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+окт 04 21:07:28 ly-Linux systemd[10279]: Starting Tracker file system data miner...
+окт 04 21:07:29 ly-Linux sudo[10439]: pam_unix(sudo:session): session closed for user root
+окт 04 21:07:29 ly-Linux sshd[10390]: pam_unix(sshd:session): session closed for user user2
+окт 04 21:07:29 ly-Linux systemd[1]: session-16.scope: Deactivated successfully.
+окт 04 21:07:29 ly-Linux systemd-logind[654]: Session 16 logged out. Waiting for processes to exit.
+окт 04 21:07:29 ly-Linux systemd-logind[654]: Removed session 16.
+окт 04 21:07:29 ly-Linux sshd[10573]: Accepted password for user2 from 127.0.0.1 port 56360 ssh2
+окт 04 21:07:29 ly-Linux sshd[10573]: pam_unix(sshd:session): session opened for user user2(uid=1002) by (uid=0)
+окт 04 21:07:29 ly-Linux systemd-logind[654]: New session 17 of user user2.
+окт 04 21:07:29 ly-Linux snapd-desktop-i[10540]: Detected new session 17 at /org/freedesktop/login1/session/_317
+окт 04 21:07:29 ly-Linux systemd[1]: Started Session 17 of User user2.
+окт 04 21:07:29 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.10' (uid=1002 pid=10560 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+окт 04 21:07:29 ly-Linux systemd[10279]: Starting Virtual filesystem service - disk device monitor...
+окт 04 21:07:29 ly-Linux sudo[10615]:    user2 : PWD=/home/user2 ; USER=root ; COMMAND=/usr/bin/dpkg -s p7zip-full
+окт 04 21:07:29 ly-Linux sudo[10615]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1002)
+окт 04 21:07:30 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+окт 04 21:07:30 ly-Linux systemd[10279]: Started Virtual filesystem service - disk device monitor.
+окт 04 21:07:30 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.10' (uid=1002 pid=10560 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+окт 04 21:07:30 ly-Linux sudo[10615]: pam_unix(sudo:session): session closed for user root
+окт 04 21:07:30 ly-Linux sshd[10573]: pam_unix(sshd:session): session closed for user user2
+окт 04 21:07:30 ly-Linux systemd[1]: session-17.scope: Deactivated successfully.
+окт 04 21:07:30 ly-Linux systemd-logind[654]: Session 17 logged out. Waiting for processes to exit.
+окт 04 21:07:30 ly-Linux systemd[10279]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+окт 04 21:07:30 ly-Linux systemd-logind[654]: Removed session 17.
+окт 04 21:07:30 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Activating service name='org.gnome.OnlineAccounts' requested by ':1.12' (uid=1002 pid=10621 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined")
+окт 04 21:07:32 ly-Linux goa-daemon[10627]: goa-daemon version 3.44.0 starting
+окт 04 21:07:32 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Activating service name='org.gnome.Identity' requested by ':1.13' (uid=1002 pid=10627 comm="/usr/libexec/goa-daemon " label="unconfined")
+окт 04 21:07:32 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Successfully activated service 'org.gnome.OnlineAccounts'
+окт 04 21:07:32 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+окт 04 21:07:32 ly-Linux systemd[10279]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+окт 04 21:07:32 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.10' (uid=1002 pid=10560 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+окт 04 21:07:32 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Successfully activated service 'org.gnome.Identity'
+окт 04 21:07:32 ly-Linux systemd[10279]: Starting Virtual filesystem service - digital camera monitor...
+окт 04 21:07:32 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+окт 04 21:07:32 ly-Linux systemd[10279]: Started Virtual filesystem service - digital camera monitor.
+окт 04 21:07:32 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.10' (uid=1002 pid=10560 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+окт 04 21:07:32 ly-Linux systemd[10279]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+окт 04 21:07:32 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+окт 04 21:07:32 ly-Linux systemd[10279]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+окт 04 21:07:32 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.10' (uid=1002 pid=10560 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+окт 04 21:07:32 ly-Linux systemd[10279]: Starting Virtual filesystem service - Apple File Conduit monitor...
+окт 04 21:07:32 ly-Linux dbus-daemon[10325]: [session uid=1002 pid=10325] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+окт 04 21:07:32 ly-Linux systemd[10279]: Started Virtual filesystem service - Apple File Conduit monitor.
